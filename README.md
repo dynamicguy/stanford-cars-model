@@ -47,9 +47,9 @@ A PyTorch model for Stanford Cars Classification
           
   ```
   
-  Training data download: http://imagenet.stanford.edu/internal/car196/cars_train.tgz 
+  Training data download: http://ai.stanford.edu/~jkrause/car196/cars_train.tgz
   
-  Testing data download: http://imagenet.stanford.edu/internal/car196/cars_test.tgz
+  Testing data download: http://ai.stanford.edu/~jkrause/car196/cars_test.tgz
   
   After download, extract and copy image to ```data_processing/datasets/training/original``` and ```data_processing/datasets/testing/original```
 #### Data Extract
@@ -99,7 +99,7 @@ You can download pretrained model here: https://www.dropbox.com/s/w550z44ur2pwr4
 And run following script with downloaded model to predict classes on test set
 
 ```angular2html
-python test.py -c test_config.json -m "pretrained_model.pth" -o "test_output/"
+python test.py -c test_config.json -m "model_best.pth" -o "test_output/"
 ```
 
 
